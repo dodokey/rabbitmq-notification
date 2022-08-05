@@ -4,7 +4,7 @@ let publishToQueue;
 let mysqlHelper;
 
 const init = function (settings, lib) {
-  publishToQueue = lib.rabbitMQHelper.publishToQueue;
+  publishToQueue = lib.rabbitmqHelper.publishToQueue;
   mysqlHelper = lib.mysqlHelper;
 };
 
